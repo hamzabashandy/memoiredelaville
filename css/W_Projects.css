@@ -296,6 +296,11 @@ li {
     grid-row: 5 / span 1;	
 }
 
+.mdr_text{
+	grid-column: 2 / span 3;
+    grid-row: 6 / span 1;	
+}
+
 /* RIGHT_HISTORIES */
 .right_histories   {
 	position: fixed;
@@ -464,14 +469,30 @@ li {
 	display: flex;
 }
 
-.landscape-title   {
+.elevation-title   {
     grid-column: 2 / span 3;
-    grid-row: 9 / span 1;
+    grid-row: 11 / span 1;
 }
 
-.landscape-plan {
+.elevation1 {
     grid-column: 2 / span 3;
-    grid-row: 12 / span 1;
+    grid-row: 14 / span 1;
+}
+
+.elevation2 {
+    grid-column: 2 / span 3;
+    grid-row: 18 / span 1;
+}
+
+
+.coupe1   {
+    grid-column: 2 / span 3;
+    grid-row: 20 / span 1;
+}
+
+.coupe2   {
+    grid-column: 2 / span 3;
+    grid-row: 24 / span 1;
 }
 
 /* RIGHT_PUBLICSPACE */
@@ -583,7 +604,7 @@ li {
 
 
 .detail:hover {
-    box-shadow: 0px 0px 150px #000000;
+    box-shadow: 0px 0px 40px #000000;
     z-index: 2;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(2.5);
@@ -739,7 +760,8 @@ li {
 	padding-right: 2.5vmax;
 	background: #fff;
 	height: 40vh;
-	}
+	}	
+		
 	
 	li {
 	padding-left: 2.0vmax;
