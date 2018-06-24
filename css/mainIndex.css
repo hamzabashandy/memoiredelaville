@@ -1,4 +1,4 @@
-#container { 
+html { 
   background: url(../Assets/Index/cover.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -39,7 +39,7 @@ iframe{
 }
 
 h1 {
-    color: #fff;
+    color: #000;
     font-size: 1.8vmax;
     font-family: 'Raleway', sans-serif;
     text-align: left;
@@ -56,7 +56,7 @@ h1 {
 }
             
 h2 {
-    color: #fff;
+    color: #000;
     font-size: .8vmax;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
@@ -249,7 +249,7 @@ a {
 @media screen and (min-width: 1800px) {
 	h1 {
     font-size: 1.1vmax;
-	color: #fff;
+	color: #000;
 	}
 
 	h2 {
