@@ -20,6 +20,8 @@ img.bg {
   }
 }
 
+
+
 body {
     background-color: #000000;
     margin: 0px;
@@ -46,9 +48,19 @@ iframe{
 	z-index: 1000;
 }
 
+.icon {
+	width: 2.4%;
+	position: fixed;
+	z-index: 1000;
+	top: 3.4vmax;
+	left: 3vmax;
+	transform: translateY(-50%);
+	z-index: 1;
+}
+
 .project_title{
-	grid-column: 1 / span 6;
-    grid-row: 1 / span 2;
+	grid-column: 2 / span 6;
+    grid-row: 1 / span 1;
 }
 
 h1 {
@@ -60,7 +72,7 @@ h1 {
 }
 
 .sub-title {
-	margin-top: -1.6vmax;
+	margin-top: -2vmax;
 	font-size: .9vmax;
 	grid-column: 1 / span 6;
     grid-row: 3 / span 1;
