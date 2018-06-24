@@ -30,14 +30,14 @@
 			<h2 class="mtext"><a href="text.html" class="inactive">text</a></h2>
 			<h2 class="mabout"><a href="about.html" class="inactive">about</a></h2>
 			
-			<div class="sidebar_project_title">TAALAB Hamza</div>
+			<div class="sidebar_project_title">TAALAB Hamza | M2</div>
 			<div id="leftbar">
 				<ul id="slidemenu">
-					<li class="introduction">1 | Master Plan</li>
-					<li class="histories">2 | Concept</li>
-					<a href="#"><li class="peoplehood">3 | Architecture</li></a>
-					<a href="#"><li class="publicspace">4 | Technique</li></a>
-					<a href="#"><li class="">5| VISUALS</li></a>
+					<li class="introduction">Master Plan</li>
+					<li class="histories">Concept</li>
+					<a href="#"><li class="peoplehood">Architecture</li></a>
+					<a href="#"><li class="publicspace">Technique</li></a>
+					<a href="#"><li class="visuals">Visualization</li></a>
 				</ul>
 				<div class="summery" id="style-3"><p id="summery_title"> | HABITER LE BOIS </p> <p id="scroll"> Habiter le bois c’est prendre distance de l’agitation de la ville, un cadre de vie différent, un endroit où chaque habitant parcourt un lieu apaisant.<br><br>La situation et la topographie du bois lui donnent toutes les qualités requises pour accueillir du logement. Orienté Est-Ouest, l’ensoleillement est optimal, la végétation offre un cadre paisible, la pente permet de dominer comme si l’habitant pouvait s’élever au-dessus la ville. Certaines zones sont plates, elles se transforment donc en plateaux où des espaces publiques seront développés. Ensuite elles doivent être connectées entre elles. Tout en gardant à l’esprit les courbes de niveaux, des chemins accessibles en voiture connectent les zones. Les bâtiments s’installent autour de tout ce processus aux endroits où la déclivité le permet. </p></div>
         	</div>
@@ -111,9 +111,18 @@
 			<div class="white"><img src="assets/nostolgia/white.jpg"></div>
 			
 			<div class="technique-title right_title">| Details Technique B01 </div>
-			
+       
+		</div>
 		
-        	
+		<div class="right_visuals" id="style-3">
+			
+			<div class="v2"><img src="assets/nostolgia/render/2.jpg"></div>
+			<div class="v3"><img src="assets/nostolgia/render/3.jpg"></div>
+			<div class="v4"><img src="assets/nostolgia/render/4.jpg"></div>
+			<div class="v5"><img src="assets/nostolgia/render/5.jpg"></div>
+			<div class="v7"><img src="assets/nostolgia/render/7.jpg"></div>
+			<div class="v8"><img src="assets/nostolgia/render/8.jpg"></div>
+			
 		</div>
 		
 
@@ -170,46 +179,68 @@ $(document).ready(main);
 $( ".introduction" ).click(function() {
 			
 				$( ".right_introduction" ).css('visibility', 'visible');
-                $( ".right_histories, .right_peoplehood, .right_publicspace" ).css('visibility', 'hidden');
+                $( ".right_histories, .right_peoplehood, .right_publicspace, .right_visuals" ).css('visibility', 'hidden');
 				
-				$( ".introduction" ).css('color', '#000');
+				$( ".introduction" ).css('color', '#434343');
 				$( ".introduction" ).css('background-color', '#fff');
-				$( ".histories, .peoplehood, .publicspace" ).css('color', '#fff');
-				$( ".histories, .peoplehood, .publicspace" ).css('background-color', '#000');
+				$( ".histories, .peoplehood, .publicspace, .visuals" ).css('color', '#fff');
+				$( ".histories, .peoplehood, .publicspace, .visuals" ).css('background-color', '#434343');
 			});
 
 $( ".histories" ).click(function() {
 			
 				$( ".right_histories" ).css('visibility', 'visible');
-                $( ".right_introduction, .right_peoplehood, .right_publicspace" ).css('visibility', 'hidden');
+                $( ".right_introduction, .right_peoplehood, .right_publicspace, .right_visuals" ).css('visibility', 'hidden');
 				
-				$( ".histories" ).css('color', '#000');
+				$( ".histories" ).css('color', '#434343');
 				$( ".histories" ).css('background-color', '#fff');
-				$( ".introduction, .peoplehood, .publicspace" ).css('color', '#fff');
-				$( ".introduction, .peoplehood, .publicspace" ).css('background-color', '#000');
+				$( ".introduction, .peoplehood, .publicspace, .visuals" ).css('color', '#fff');
+				$( ".introduction, .peoplehood, .publicspace, .visuals" ).css('background-color', '#434343');
 			});
 	
 $( ".peoplehood" ).click(function() {
 			
 				$( ".right_peoplehood" ).css('visibility', 'visible');
-                $( ".right_introduction, .right_histories, .right_publicspace" ).css('visibility', 'hidden');
+                $( ".right_introduction, .right_histories, .right_publicspace, .right_visuals" ).css('visibility', 'hidden');
 				
-				$( ".peoplehood" ).css('color', '#000');
+				$( ".peoplehood" ).css('color', '#434343');
 				$( ".peoplehood" ).css('background-color', '#fff');
-				$( ".introduction, .histories, .publicspace" ).css('color', '#fff');
-				$( ".introduction, .histories, .publicspace" ).css('background-color', '#000');
+				$( ".introduction, .histories, .publicspace, .visuals" ).css('color', '#fff');
+				$( ".introduction, .histories, .publicspace, .visuals" ).css('background-color', '#434343');
 			});
 
 $( ".publicspace" ).click(function() {
 			
 				$( ".right_publicspace" ).css('visibility', 'visible');
-                $( ".right_introduction, .right_histories, .right_peoplehood" ).css('visibility', 'hidden');
+                $( ".right_introduction, .right_histories, .right_peoplehood, .right_visuals" ).css('visibility', 'hidden');
 				
-				$( ".publicspace" ).css('color', '#000');
+				$( ".publicspace" ).css('color', '#434343');
 				$( ".publicspace" ).css('background-color', '#fff');
-				$( ".introduction, .histories, .peoplehood" ).css('color', '#fff');
-				$( ".introduction, .histories, .peoplehood" ).css('background-color', '#000');
+				$( ".introduction, .histories, .peoplehood, .visuals" ).css('color', '#fff');
+				$( ".introduction, .histories, .peoplehood, .visuals" ).css('background-color', '#434343');
 			});
+	
+$( ".visuals" ).click(function() {
+			
+				$( ".right_visuals" ).css('visibility', 'visible');
+                $( ".right_introduction, .right_histories, .right_peoplehood, .right_publicspace" ).css('visibility', 'hidden');
+				
+				$( ".visuals" ).css('color', '#434343');
+				$( ".visuals" ).css('background-color', '#fff');
+				$( ".introduction, .histories, .peoplehood, .publicspace" ).css('color', '#fff');
+				$( ".introduction, .histories, .peoplehood, .publicspace" ).css('background-color', '#434343');
+			});
+	
+	
+	$( "#topbar" ).on('mouseleave', function () {
+            $( this ).css('opacity', '0.2');
+		 });
+	
+	$( "#topbar" ).on('click mouseenter', function () {
+            $( this ).css('opacity', '1');
+		 });
+	
+	
 
 $(".Hmap-buttom-before").click(function(){
     $(".Hmap-a").show();
