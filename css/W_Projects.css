@@ -243,10 +243,10 @@ li {
 /* RIGHT_INTRODUCTION */
 .right_introduction   {
 	position: fixed;
-	right:0px;
+	left:11vmax;
 	top: 3.5%;
 	bottom:3.5%;
-	width: 79%;
+	width: 100%;
 	grid-template-columns: repeat(5, 1fr);
 	grid-auto-rows: repeat (1, 50px);
   	grid-gap: .5vw .5vw;
@@ -309,10 +309,10 @@ li {
 /* RIGHT_HISTORIES */
 .right_histories   {
 	position: fixed;
-	right:0px;
+	left:11vmax;
 	top: 3.5%;
 	bottom:3.5%;
-	width: 79%;
+	width: 100%;
 	grid-template-columns: repeat(5, 1fr);
 	grid-auto-rows: repeat (1, 50px);
   	grid-gap: .5vw .5vw;
@@ -349,10 +349,10 @@ li {
 /* RIGHT_PEOPLEHOOD */
 .right_peoplehood   {
 	position: fixed;
-	right:0px;
+	left:11vmax;
 	top: 3.5%;
 	bottom:3.5%;
-	width: 79%;
+	width: 100%;
 	grid-template-columns: repeat(5, 1fr);
 	grid-auto-rows: repeat (1, 50px);
   	grid-gap: .5vw .5vw;
@@ -506,10 +506,10 @@ li {
 /* RIGHT_PUBLICSPACE */
 .right_publicspace   {
 	position: fixed;
-	right:0px;
+	left:11vmax;
 	top: 3.5%;
 	bottom:3.5%;
-	width: 79%;
+	width: 100%;
 	grid-template-columns: repeat(5, 1fr);
 	grid-auto-rows: repeat (1, 50px);
   	grid-gap: .5vw .5vw;
